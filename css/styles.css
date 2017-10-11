@@ -2,14 +2,20 @@
 font-family: monospace;
 background-color: black;
 color: white;
-padding: 10px;
+padding: 30px;
+width: 300px;
+height: 300px;
+float: left;
 }
 
 .skills{
 font-family: monospace;
 color: red;
 background-color: blue;
-padding: 20px;
+padding: 30px;
+width: 300px;
+height: 300px;
+float: left;
 }
 
 .education{
@@ -17,7 +23,10 @@ font-family: monospace;
 font-weight: bold;
 color: blue;
 background-color: red;
-padding: 20px;
+padding: 30px;
+width: 300px;
+height: 300px;
+float: left;
 }
 
 .info{
@@ -27,5 +36,28 @@ padding: 20px;
   background-color: black;
   text-align: center;
   line-height: 0.8;
-  padding: 10px;
+  padding: 30px;
+  width: 300px;
+  height: 300px;
+  float: left;
+}
+
+.photo{
+  margin: 5px;
+  border: 1px solid red;
+  float: left;
+  width: 300px;
+}
+
+.desc{
+  padding: 30px;
+  text-align: center;
+}
+
+.sidebar{
+  float: right;
+  background-color: black;
+  color: white;
+  padding: 30px;
+  font-family: sans-serif;
 }
